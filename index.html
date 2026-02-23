@@ -5,90 +5,131 @@
 <meta name="viewport" content="width=device-width, initial-scale=1.0">
 <title>PJ Study & Jobs</title>
 
+<link rel="icon" type="image/png" href="logo.png">
+
 <style>
-body {
-    margin: 0;
-    font-family: Arial;
-    background: linear-gradient(to right, #141E30, #243B55);
-    color: white;
-    text-align: center;
+body{
+margin:0;
+font-family:Arial;
+background:#0f2027;
+color:white;
 }
 
-h1 { margin-top: 40px; }
-
-.section {
-    margin: 40px;
+header{
+text-align:center;
+padding:30px;
+background:linear-gradient(135deg,#203a43,#2c5364);
 }
 
-.btn {
-    display: inline-block;
-    padding: 12px 25px;
-    margin: 10px;
-    text-decoration: none;
-    border-radius: 6px;
-    color: white;
+.logo{
+width:130px;
 }
 
-.telegram { background: #0088cc; }
-.whatsapp { background: #25D366; }
-.instagram { background: #E1306C; }
+h1{margin:10px 0;}
 
-.pdf-box {
-    background: rgba(255,255,255,0.1);
-    padding: 20px;
-    margin: 20px;
-    border-radius: 10px;
+.section{
+padding:25px;
+}
+
+.card{
+background:#1f2c34;
+padding:20px;
+margin:15px 0;
+border-radius:12px;
+}
+
+a{
+color:#00e0ff;
+text-decoration:none;
+}
+
+button{
+padding:10px 15px;
+border:none;
+background:#00c853;
+color:white;
+border-radius:6px;
+cursor:pointer;
+}
+
+footer{
+text-align:center;
+padding:15px;
+background:#111;
+margin-top:20px;
 }
 </style>
 </head>
 
 <body>
 
+<header>
+<img src="logo.png" class="logo">
 <h1>PJ Study & Jobs</h1>
-<p>Latest Jobs | Internships | Study Materials</p>
+<p>10th | Inter | BTech | Programming | Jobs</p>
+</header>
 
 <div class="section">
-<a href="https://t.me/pjstudyjobs2026" class="btn telegram">Join Telegram</a>
-<a href="https://whatsapp.com/channel/0029Vb6wtNZDDmFZScQwwA1C/104" class="btn whatsapp">Join WhatsApp</a>
-<a href="https://www.instagram.com/pjstudyjobs2026" class="btn instagram">Instagram</a>
+
+<h2>📚 Study Materials</h2>
+
+<div class="card">
+<h3>10th Materials</h3>
+<a href="#">Open Materials</a>
 </div>
 
-<h2>📂 Study Materials & PDFs</h2>
-
-<div class="pdf-box">
-<h2>📚 Programming & Software Documents</h2>
-
-<div class="pdf-box">
-<h3>Complete Python Notes</h3>
-<a href="Complete Python R.pdf" target="_blank">Open PDF</a>
+<div class="card">
+<h3>Inter Materials</h3>
+<a href="#">Open Materials</a>
 </div>
 
-<div class="pdf-box">
-<h3>HTML Handwritten Notes</h3>
-<a href="HTML Handwritten Notes.pdf" target="_blank">Open PDF</a>
+<div class="card">
+<h3>BTech Materials</h3>
+<a href="#">Open Materials</a>
 </div>
 
-<div class="pdf-box">
-<h3>JAVA PDF-1</h3>
-<a href="JAVA PDF-1.pdf" target="_blank">Open PDF</a>
+<div class="card">
+<h3>Programming Notes</h3>
+<a href="#">Open Notes</a>
 </div>
 
-<div class="pdf-box">
-<h3>Java UNIT-4</h3>
-<a href="Java UNIT-4.pdf" target="_blank">Open PDF</a>
+<div class="card">
+<h3>Resume Formats</h3>
+<a href="#">Download Resume</a>
 </div>
 
-<div class="pdf-box">
-<h3>Operating System</h3>
-<a href="Operating System.pdf" target="_blank">Open PDF</a>
+<h2>💼 Latest Jobs</h2>
+
+<div class="card">
+<h3>Software Developer - Freshers</h3>
+<p>Location: Hyderabad</p>
+<button onclick="window.location.href='#apply'">
+Apply Now
+</button>
 </div>
 
-<div class="pdf-box">
-<h3>PHP Handwritten Notes</h3>
-<a href="PHP Handwritten Notes.pdf" target="_blank">Open PDF</a>
+<h2 id="apply">📝 Apply for Job</h2>
+
+<div class="card">
+<p>Fill the application form below:</p>
+
+<iframe src="PASTE_YOUR_GOOGLE_FORM_LINK"
+width="100%" height="500"></iframe>
+
 </div>
 
-<div class="pdf-box">
-<h3>Python Crash Course</h3>
-<a href="Python Crash Course.pdf" target="_blank">Open PDF</a>
+<h2>⭐ Rate Our Website</h2>
+
+<div class="card">
+<iframe src="PASTE_YOUR_RATING_FORM_LINK"
+width="100%" height="400"></iframe>
 </div>
+
+</div>
+
+<footer>
+© 2026 PJ Study & Jobs | All Rights Reserved
+</footer>
+
+</body>
+</html>
